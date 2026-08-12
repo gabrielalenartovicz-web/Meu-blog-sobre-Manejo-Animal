@@ -22,6 +22,8 @@
         <h2> Meu Primeiro Post</h2>  
         <p class="autor"> Por: Gabriela Lenartovicz</p>
         <p>Meu Primeiro Post sobre Manejo e Alimentação Animal</p>
+        <button>❤️<span>0</span></button>
+        <button>👎<span>0</span></button>
     </div>
 
     </main>
@@ -30,5 +32,25 @@
 </footer>
 
 </body>
+<script>
+    const botoes = document.querySelectorAll("button");
+
+    botoes.forEach(function(botao) {
+        let curtiu = false;
+        botao.addEventListener("click", botaoClicado);
+        function botaoClicado(){
+            let texto = botao.querySelector("span");
+            if(curtiu === false;)
+            texto.textContent++;
+            curtiu = true;
+        }
+        else{
+            texto.textContent--;
+            curtiu = false;
+        }
+    }
+    )
+
+</script>
 
 </html>
