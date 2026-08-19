@@ -16,6 +16,7 @@ max-width: 800px;
 margin: 0 auto;
 border: 5px solid #804e0e9f;
 padding: 10px;
+display: flex;
 }
 
 footer{
@@ -25,8 +26,13 @@ text-align: center;
 max-width: 800px;
 margin: 0 auto;
 border: 5px solid #441a01d7;
-padding: 5px;
+padding: 10px;
 }
 .autor{
     font-weight: bold;
+}
+
+img{
+    height: 10;
+    width: 20;
 }
